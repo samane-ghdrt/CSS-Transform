@@ -4,18 +4,149 @@
     box-sizing: border-box;
 }
 .row{
-    background-color: #56808d;
+    /* background-color: #56808d; */
     height: 25vh;
     display: flex;
     justify-content: space-around;
     margin-top: 1rem;
     
 }
+.row1{
+    /* background-color: #56808d; */
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+gap: 5vw;
+    
+}
 .box{
     width: 15vw;
-    background-color: rgb(125, 159, 132);
-    border: .5px #72797b solid; 
+    /* background-color: rgb(125, 159, 132); */
+    border: .5px #4a4b4b solid; 
     border-radius: 15px;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SMALL-BOX{
+    width: 10vw;
+    height: 70%;
+    background-color: rgb(114, 116, 114);
+}
+.m-box{
+    width: 10vw;
+    height: 100%;
+    background-color: rgba(148, 66, 123,50%);
+}
+.tran1:hover{
+transform: rotate(45deg);
+transition-duration: 1s;
+}
+.tran2:hover{
+    transform: scale( 1, 0.7);
+    transition-duration: 1s;
+}
+.tran3:hover{
+        transform: scale( 0.7, 1);
+        transition-duration: 1s;
+}
+.tran4:hover{
+    transform: scale(1.8);
+    transition-duration: 1s;
+}
+.tran5:hover{
+    transform: scale(1.8, 1);
+    transition-duration: 1s;
+}
+.tran6:hover{
+    transform: scale(1, 1.8);
+    transition-duration: 1s;
+}
+.tran7:hover{
+    transform: skew(30deg);
+    transition-duration: 1s;
+}
+.tran8:hover{
+    transform: skew(0,40deg);
+    transition-duration: 1s;
+}
+.tran9:hover{
+    transform: translate(15px, 15px);
+    transition-duration: 1s;
+}
+.tran10:hover{
+    transform: translate(20px, 0);
+    transition-duration: 1s;
+}
+.tran11:hover{
+    transform: translate(0, 20px);
+    transition-duration: 1s;
+}
+.tran12:hover{
+    transform:skew(20deg, -40deg);
+    /* transform: translate(50px, 50px) skew(20deg, 20deg)scale(1.5,0) skew(20deg, 30deg); */
+    transition-duration: 1s;
+    transform-origin: 12px;
+}
+.tran13:hover{
+    transform: perspective(80px) rotateX(60deg);
+    transition-duration: 1s;
+}
+.tran14:hover{
+    transform: perspective(70px) rotatey(40deg);
+    transition-duration: 1s;
+}
+.tran15:hover{
+    transform-origin: top right;
+    transform:rotate(40deg);
+    transition-duration: 1s;
+}
+.tran16:hover{
+    transform-origin: bottom left;
+    transform:rotate(40deg);
+    transition-duration: 1s;
+}
+.tran17:hover{
+    transform-origin: bottom;
+    transform: perspective(100px) rotatey(60deg);
+    transition-duration: 1s;
+}
+.tran18:hover{
+    transform: perspective(70px) rotatey(40deg);
+    transition-duration: 1s;
+}
+.tran19:hover{
+    transform: perspective(70px) rotatey(40deg);
+    transition-duration: 1s;
+}
+.tran20:hover{
+    transform: perspective(70px) rotatey(40deg);
+    transition-duration: 1s;
+}
+.tran21:hover{
+    transform-origin: TOP right;
+    /* transform: translate(20PX,20PX); */
+    transform: scale(2, 2);
+    transition-duration: 1s;
+}
+.tran22:hover{
+    transform-origin: bottom left;
+    /* transform: translate(20PX,20PX); */
+    transform: scale(2, 2);
+    transition-duration: 1s;
+}
+.tran23:hover{
+    transform-origin: right;
+    /* transform: translate(20PX,20PX); */
+    transform: scaleX(1.5);
+    transition-duration: 1s;
+}
+.tran24:hover{
+    transform-origin: left;
+    /* transform: translate(20PX,20PX); */
+    transform: scaleX(1.5);
+    transition-duration: 1s;
 }
