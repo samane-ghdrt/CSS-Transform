@@ -87,9 +87,11 @@ transition-duration: 1s;
 }
 .tran12:hover{
     /* ....... */
-    transform-origin: bottom left;
-    transform:skew(0deg,50deg) scale(2);
-    transition-duration: 1s;
+    /* transform-origin: left; */
+    /* transform:skew(0deg,50deg) scale(2); */
+    /* transform: scale(2) rotate(29deg); */
+    transform:  translate(40px,-0.05rem) scale(1.5) skew(0deg,40deg) ;
+    transition-duration: .5s;
 }
 .tran13:hover{
     transform: perspective(80px) rotateX(60deg);
